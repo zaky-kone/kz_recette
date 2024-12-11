@@ -1,0 +1,185 @@
+body {
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div.content {
+    background-color: white;
+    margin: 60px 10%  80px 10%;
+    padding: 30px;
+    min-width: 250px;
+}
+
+p.description {
+    max-width: 400px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+}
+
+div.description {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+}
+
+.category {
+    text-align: center;
+    
+}
+
+p.category{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+div.category {
+    
+    margin-top: 0;
+}
+
+div.center {
+    margin-bottom: -20px;
+}
+
+
+h1 {
+    margin: 0 0 15px 0;
+}
+
+div.separator{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#img_ingredients {
+    position: relative; 
+}
+
+table.ingredients {
+    position: absolute;
+    bottom: 0; background-color: #6c829dc0; width: 100%;
+    color: white; height: 80px;
+    
+}
+
+img.image_chocolat {
+    display: block;
+    /* max-width: 50%; */
+    object-fit: cover;
+    margin: auto;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+table.ingredients tr {
+    text-align: center;
+}
+
+table.ingredients th {
+    font-size: 16px;
+    vertical-align: bottom;
+}
+
+table.ingredients td {
+    font-size: 14px;
+    vertical-align: top;
+    
+}
+
+li {
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+}
+
+#left_col, #right_col {
+    width: 49%;
+}
+
+#right_col {
+    float: right;
+
+}
+
+#left_col {
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.col h2 {
+ text-align: center;
+ border-bottom: 5px solid #6c829dc0;
+ margin-bottom: 10px;
+}
+
+.col p {
+    border: 1px solid lightblue;
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 5px;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+.col table p {
+    width: 25px;
+    height: 25px;
+    background-color: #6c829dc0;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+
+    
+}
+
+.col table tr {
+    vertical-align: top;
+}
+
+
+.col table .preparation {
+    padding-left: 10px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.col table tr {
+    height: 40px;
+}
+
+.col table  tr * {
+    overflow: hidden;
+}
+
+
+
+
